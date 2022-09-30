@@ -1,0 +1,204 @@
+body{
+    background: url(./shara\ desert.jpg);
+    z-index: -10;
+    position: relative;
+    color: white;
+}
+h1{
+    position: absolute;
+    font-size: 60px;
+    top: 150px;
+    left: 100px;
+  
+ 
+   
+}
+img{
+    width: 100px;
+    margin: 60px;
+}
+nav{
+    position: absolute;
+    left: 1040px;
+    padding: 10px;
+    top: 0px;
+}
+.home,i,.region,.about{
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+.lorem{
+   position: absolute;
+   left: 100px;
+   top: 250px;
+   
+}
+.lorem1{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+}
+.button{
+    position: absolute;
+    width: 140px;
+    left: 100px;
+    top: 370px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(14, 14, 25);
+}
+ 
+
+
+/* .parent{
+    width: 1244px;
+    height: 700px;
+    position: relative;
+    z-index: -10;
+} */
+
+.desert{
+    position: absolute;
+    background-image: url(./pic-1.png);
+    top: 100px;
+    left: 650px;
+    width: 300px;
+    height: 270px;
+    background-size: cover;
+    border-radius: 10px;
+    line-height: 25px;
+}
+.stone{
+    position: absolute;
+    background-image: url(./pic-2.png);
+    top: 100px;
+    left: 1050px;
+    border-radius: 10px;
+    width: 300px;
+    height: 270px;
+    background-size: cover;
+    line-height: 25px;
+}
+.pyramid{
+position: absolute;
+background-image: url(./pic-3.png);
+top: 430px;
+border-radius: 10px;
+
+
+
+left: 650px;
+width: 300px;
+height: 270px;
+background-size: cover;
+line-height: 25px;
+}
+.kalahari{
+
+        position: absolute;
+        background-image: url(./pic-4.png);
+        top: 430px;
+        line-height: 25px;
+        left: 1050px;
+    border-radius: 10px;
+
+        width: 300px;
+        height: 270px;
+        background-size: cover;
+        
+}
+/* div{
+    cursor: pointer;
+    animation-name: saran;
+    transition-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+div:hover{
+
+   transform: scale(1);
+   
+} */
+
+
+
+
+
+@media (min-width:300px) and (max-width:900px) {
+
+
+    nav{
+        padding: 0px;
+        left: 450px;
+        display: flex;
+        flex-direction: column;
+      
+
+        /* background-color: blue; */
+    }
+    .container{
+      
+       display: flex;
+       flex-direction: column;
+       height: 250px;
+       width: 1000px;
+       
+       z-index: 1;
+    }
+    .desert{
+        position: absolute;
+        background-image: url(./pic-1.png);
+        top: 500px;
+        left: 150px;
+        width: 400px;
+        height: 320px;
+        background-size: cover;
+        border-radius: 10px;
+        line-height: 25px;
+        background-color: aqua;
+    }
+    .stone{
+        position: absolute;
+        background-image: url(./pic-2.png);
+        top: 920px;
+        left: 150px;
+        border-radius: 10px;
+        width: 400px;
+        height: 320px;
+        background-size: cover;
+        line-height: 25px;
+    }
+    .pyramid{
+    position: absolute;
+    background-image: url(./pic-3.png);
+    top: 1220px;
+    border-radius: 10px;
+    left: 150px;
+    width: 400px;
+    height: 320px;
+    background-size: cover;
+    line-height: 25px;
+    }
+    .kalahari{
+    
+            position: absolute;
+            background-image: url(./pic-4.png);
+            top: 1730px;
+            line-height: 25px;
+            left: 150px;
+            border-radius: 10px;
+            width: 400px;
+             height: 320px;
+            background-size: cover;
+    }
+            
+    body{
+        background-repeat: repeat-y;
+    }
+    
+}
